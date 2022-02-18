@@ -3,6 +3,10 @@
 Live project
 https://salesblink.herokuapp.com/#/
 
+### SUPER USER LOGIN DETAILS
+    Email: admin@blink.com
+    Password: blink
+
 Project quick documentation
 
 ## Installation
