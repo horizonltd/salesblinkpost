@@ -61,16 +61,16 @@ function HeaderScreen({ history }) {
                             </NavDropdown>
                         ): (
 
-                            <di>
+                            <Nav>
+
+                                <LinkContainer to='/register'>
+                                    <Nav.Link>Sign Up</Nav.Link>
+                                </LinkContainer>
+
                                 <LinkContainer to='/login'>
                                     <Nav.Link><i className="fas fa-user"></i> Login</Nav.Link>
                                 </LinkContainer>
-
-                                <LinkContainer to='/register'>
-                                    <Nav.Link><i className="fas fa-user"></i> Sign Up</Nav.Link>
-                                </LinkContainer>
-                            </di>
-
+                            </Nav>
                         )}
 
                     </Nav>
