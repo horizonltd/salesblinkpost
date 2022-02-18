@@ -78,20 +78,6 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-
-# LIVE DATABASE
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'blinkdb',
-#         'HOST': 'blink-identifier.cmehbhcmugu9.us-east-1.rds.amazonaws.com',
-#         'USER': 'blink',
-#         'PASSWORD': 'b###0011Blink(!-)',
-#         'PORT': '5432'
-#     }
-# }
-
-
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.postgresql',
@@ -188,13 +174,6 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 CORS_ALLOW_ALL_ORIGINS = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-
-# AWS_QUERYSTRING_AUTH = False
-# DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-# AWS_ACCESS_KEY_ID = 'AKIAQXMUHZGSXUSCT6ND'
-# AWS_SECRET_ACCESS_KEY = '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'
-# AWS_STORAGE_BUCKET_NAME = 'blinkdev'
 
 
 AWS_QUERYSTRING_AUTH = False
