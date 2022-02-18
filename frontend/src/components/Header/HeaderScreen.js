@@ -60,9 +60,16 @@ function HeaderScreen({ history }) {
                                 <NavDropdown.Item onClick={logoutHandler}>Logout</NavDropdown.Item>
                             </NavDropdown>
                         ): (
-                            <LinkContainer to='/login'>
-                                <Nav.Link><i className="fas fa-user"></i> Login</Nav.Link>
-                            </LinkContainer>
+
+                            <di>
+                                <LinkContainer to='/login'>
+                                    <Nav.Link><i className="fas fa-user"></i> Login</Nav.Link>
+                                </LinkContainer>
+
+                                <LinkContainer to='/register'>
+                                    <Nav.Link><i className="fas fa-user"></i> Sign Up</Nav.Link>
+                                </LinkContainer>
+                            </di>
 
                         )}
 
